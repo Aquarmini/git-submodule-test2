@@ -6,3 +6,16 @@
 // +----------------------------------------------------------------------
 // | Author: limx <715557344@qq.com> <https://github.com/limingxinleo>
 // +----------------------------------------------------------------------
+namespace App\Biz\SubModule;
+
+use Xin\Traits\Common\InstanceTrait;
+
+class Test
+{
+    use InstanceTrait;
+
+    public function test()
+    {
+        return 'hello sub module';
+    }
+}
